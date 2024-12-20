@@ -1,0 +1,53 @@
+{
+    "name": "My Example Source",
+    "subtitle": "All my apps in one place.",
+    "description": "Welcome to my source! Here you'll find all of my apps.",
+    "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OctoSource.png",
+    "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
+    "website": "https://example.com",
+    "tintColor": "#4185A9",
+    "apps": [
+        {
+            "name": "EeveeSpotify",
+            "bundleIdentifier": "com.spotify.client",
+            "developerName": "whoeevee",
+            "subtitle": "Your favorite music player.",
+            "localizedDescription": "Stream and enjoy your favorite music with EeveeSpotify, exclusively on AltStore.",
+            "iconURL": "https://example.com/eeveespotify_icon.png",
+            "tintColor": "#5CA399",
+            "versions": [
+                {
+                    "version": "1.0",
+                    "date": "2023-12-01T09:00:00-08:00",
+                    "size": 15000000,
+                    "downloadURL": "https://github.com/whoeevee/EeveeSpotify/releases/download/swift5.8.3/EeveeSpotify-5.8.3-9.0.2.ipa",
+                    "localizedDescription": "Initial release of EeveeSpotify.",
+                    "minOSVersion": "13.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    "com.apple.developer.music",
+                    "com.apple.developer.networking.wifi",
+                    "com.apple.developer.contacts.read-only",
+                    "com.apple.developer.homekit",
+                    "com.apple.developer.bluetooth",
+                    "com.apple.developer.networking.multicast",
+                    "com.apple.developer.pushkit.voip",
+                    "com.apple.developer.siri",
+                    "com.apple.security.application-groups"
+                ],
+                "privacy": {
+                    "NSMicrophoneUsageDescription": "App uses microphone for voice controls.",
+                    "NSLocalNetworkUsageDescription": "App connects to local devices for music sharing.",
+                    "NSBluetoothPeripheralUsageDescription": "App uses Bluetooth to connect to speakers.",
+                    "NSContactsUsageDescription": "App accesses your contacts for sharing music.",
+                    "NSHomeKitUsageDescription": "App uses HomeKit for device integration.",
+                    "NSLocationWhenInUseUsageDescription": "App uses location to enhance your experience.",
+                    "NSCameraUsageDescription": "App uses camera for profile customization.",
+                    "NSPhotoLibraryUsageDescription": "App accesses your photos for album art customization."
+                }
+            }
+        }
+    ]
+}
