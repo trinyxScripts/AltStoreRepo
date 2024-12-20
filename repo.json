@@ -1,7 +1,7 @@
 {
-    "name": "trinyx source",
+    "name": "My Example Source",
     "subtitle": "All my apps in one place.",
-    "description": "Welcome to my source! Here you'll find all of my tweaked daily apps.",
+    "description": "Welcome to my source! Here you'll find all of my apps.",
     "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OctoSource.png",
     "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
     "website": "https://example.com",
@@ -10,19 +10,17 @@
         {
             "name": "EeveeSpotify",
             "bundleIdentifier": "com.spotify.client",
-            "developerName": "whoeevee",
-            "subtitle": "Your favorite music player.",
-            "localizedDescription": "Stream and enjoy your favorite music with EeveeSpotify, exclusively on AltStore.",
+            "developerName": "",
+            "localizedDescription": "",
             "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/1f/61/0c1f6144-af80-f395-3204-1d14fd8b2be7/AppIcon-0-0-1x_U007emarketing-0-6-0-0-85-220.png/512x512bb.jpg",
-            "tintColor": "#5CA399",
+            "downloadURL": "https://github.com/whoeevee/EeveeSpotify/releases/download/swift5.8.3/EeveeSpotify-5.8.3-9.0.2.ipa",
             "versions": [
                 {
-                    "version": "1.0",
-                    "date": "2023-12-01T09:00:00-08:00",
-                    "size": 15000000,
+                    "version": "9.0.2",
+                    "date": "2024-12-18",
+                    "localizedDescription": "Spotify v9.0.2 injected with EeveeSpotify",
                     "downloadURL": "https://github.com/whoeevee/EeveeSpotify/releases/download/swift5.8.3/EeveeSpotify-5.8.3-9.0.2.ipa",
-                    "localizedDescription": "Initial release of EeveeSpotify.",
-                    "minOSVersion": "13.0"
+                    "size": 83798628
                 }
             ],
             "appPermissions": {
