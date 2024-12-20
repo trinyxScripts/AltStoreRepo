@@ -1,7 +1,7 @@
 {
-    "name": "My Example Source",
+    "name": "trinyx source",
     "subtitle": "All my apps in one place.",
-    "description": "Welcome to my source! Here you'll find all of my apps.",
+    "description": "Welcome to my source! Here you'll find all of my tweaked daily apps.",
     "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OctoSource.png",
     "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
     "website": "https://example.com",
@@ -13,7 +13,7 @@
             "developerName": "whoeevee",
             "subtitle": "Your favorite music player.",
             "localizedDescription": "Stream and enjoy your favorite music with EeveeSpotify, exclusively on AltStore.",
-            "iconURL": "https://example.com/eeveespotify_icon.png",
+            "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/1f/61/0c1f6144-af80-f395-3204-1d14fd8b2be7/AppIcon-0-0-1x_U007emarketing-0-6-0-0-85-220.png/512x512bb.jpg",
             "tintColor": "#5CA399",
             "versions": [
                 {
